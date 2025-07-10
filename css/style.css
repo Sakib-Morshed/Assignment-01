@@ -61,7 +61,7 @@ nav{
 }
 /* Bannar Section*/
 .bannar{
-    margin: 115px 0px 237px 550px;
+    margin: 115px 0px 237px 480px;
     width: 905px;
     height: 152px;
 
@@ -75,4 +75,34 @@ nav{
 .bannar-button{
     width: 174px;
     height: 48px;
+}
+/* Action-Section */
+.action-container{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 117px;
+}
+.action-title{
+    font-size: 42;
+    font-weight:bold;
+    color: rgba(37, 36, 50, 1);
+    width: 517px;
+    height: 60px;
+}
+.action-subtitle{
+    width: 517px;
+    height: 60px;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    padding-top: 0px;
+}
+.action-button{
+    width: 229px;
+    height: 48px;
+}
+.action-image{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+
 }
