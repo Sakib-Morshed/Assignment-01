@@ -65,7 +65,7 @@ nav{
 }
 /* Bannar Section*/
 .bannar{
-    margin: 115px 0px 237px 480px;
+    margin: 115px 0px 237px 300px;
     width: 905px;
     height: 152px;
 
@@ -126,8 +126,8 @@ nav{
 }
 .productive-sub-section{
     display: flex;
-    gap: 150px;
-    padding-left: 100px;
+    gap: 20px;
+    padding-left: 80px;
 }
 .productive-subtitle{
     width: 162px;
