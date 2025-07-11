@@ -56,7 +56,7 @@ nav{
 .logo-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight:900px;
   font-style: normal;
 }
 .nav-button{
@@ -127,6 +127,7 @@ nav{
 .productive-sub-section{
     display: flex;
     gap: 150px;
+    padding-left: 100px;
 }
 .productive-subtitle{
     width: 162px;
@@ -229,5 +230,40 @@ form input[type="text"],form input[type="email"],form textarea{
     width: 100%;
     height: 62px;
 }
+/* Footer Section */
+.footer-section {
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 428px;
+  text-align: center; 
+  padding-top: 104px;  
+}
+
+.footer-logo {
+  color: rgba(78, 71, 255, 1);
+  font-size: 100px;
+  font-weight:900px;
+  margin: 0;
+}
+
+.footer-description {
+  font-size: 16px;
+  color: rgba(137, 135, 161, 1);
+  margin: 10px 0 20px 0;
+}
 
 
+.footer-listing {
+  display: inline-flex;  
+  gap: 48px;
+}
+
+.footer-listing li {
+  list-style: none;
+}
+
+.footer-listing li a {
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
+  font-size: 16px;
+}
